@@ -168,8 +168,8 @@ export class Todo extends React.Component {
                 checked={item.status}
                 onChange={this.handleChecked.bind(this, item.id, item.status)}
               />
-              <span>Mark&nbsp;</span>
-              <span>{item.status == true ? "Incompleted" : "Complete"}</span>
+              {/* <span>Mark&nbsp;</span> */}
+              <span>{item.status == true ? "Completed" : "In-complete"}</span>
             </div>
             <div id="titlediv">{item.title.task}</div>
 
