@@ -24,7 +24,7 @@ export class Todo extends React.Component {
     var { query } = this.state;
     if (Object.keys(query).length > 0) {
       if (!query.time) {
-        alert("set a date and time for completion");
+        alert("🚫set a date and time for completion");
       } else {
         const payload = {
           title: query,
