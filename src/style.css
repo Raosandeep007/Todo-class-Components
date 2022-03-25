@@ -1,9 +1,9 @@
 #maindiv {
   margin: auto;
-  width: 90%;
+  /* width: 90%; */
   border-radius: 10px;
   padding: 10px;
-  height: 95vh;
+  /* height: 95vh; */
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
@@ -14,6 +14,6 @@
 body {
   background-image: url('https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1912&q=80');
   background-repeat: no-repeat;
-  background-size: 100% 720px;
+  /* background-size: 100% 720px; */
   font-family: Bradley Hand, cursive;
 }

@@ -124,6 +124,11 @@ button {
 }
 
 #deletebtn,
-#checkbox {
+#checkbox,
+#inputtodo {
   cursor: pointer;
+}
+#timedate {
+  display: flex;
+  gap: 10px;
 }
