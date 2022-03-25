@@ -1,0 +1,129 @@
+#tododiv {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* display: flex; */
+  justify-content: space-between;
+  border-radius: 10px;
+}
+#statusdiv {
+  font-family: Serif;
+  display: flex;
+  color: red;
+}
+#date_time_div {
+  font-family: Serif;
+  display: flex;
+}
+#titlediv {
+  word-wrap: break-word;
+  overflow: scroll;
+  height: 60px;
+  font-family: Bradley Hand, cursive;
+}
+#titlediv::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  height: 30px;
+}
+
+#inputtodo {
+  height: 40px;
+  font-size: larger;
+  border-radius: 10px;
+  border: none;
+  font-family: Bradley Hand, cursive;
+}
+
+#nextprevdiv {
+  padding-left: 15px;
+  display: flex;
+  column-gap: 10%;
+}
+#adddiv {
+  display: flex;
+  flex-direction: column;
+  padding-left: 9px;
+  row-gap: 5px;
+  margin-right: 10px;
+}
+
+#addtododiv button {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+#heading {
+  background-image: linear-gradient(
+    to left,
+    green,
+    rgba(0, 0, 255, 0.808),
+    rgb(107, 107, 81),
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-left: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#deletebtn,
+#checkbox {
+  cursor: pointer;
+}
